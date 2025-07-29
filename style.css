@@ -1,0 +1,95 @@
+* {
+    font-family: Roboto;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('./fonts/Roboto-VariableFont_wdth\,wght.ttf');
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.header .spacer {
+    flex-grow: 1;
+}
+
+.header .logo {
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.header .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+    gap: 25px;
+    color: #e5e7eb;
+}
+
+.links a {
+    text-decoration: none;
+    color: #f9faf8;
+
+}
+
+.splash {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+    background-color: #1f2937;
+}
+
+.splash-text {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    max-width: 350px;
+    margin: 0;
+    color: #f9faf8;
+}
+
+.splash-img img {
+    max-width: 700px;
+    max-height: 300px;
+}
+
+h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.splash-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.splash-button {
+    padding-top: 15px;
+}
+
+.splash-button button {
+    background-color: #3882f6;
+    padding: 10px 30px;
+    border: none;
+    border-radius: .5rem;
+    font-size: large;
+    color: #f9faf8;
+}
