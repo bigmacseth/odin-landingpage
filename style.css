@@ -87,9 +87,130 @@ h2 {
 
 .splash-button button {
     background-color: #3882f6;
-    padding: 10px 30px;
+    padding: 10px 40px;
     border: none;
     border-radius: .5rem;
     font-size: large;
     color: #f9faf8;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.alt {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-box {
+    background-color: white;
+    border: solid;
+    border-radius: 1rem;
+    border-color: #3882f6;
+    height: 150px;
+    width: 150px;
+}
+
+.card-text {
+    width: 150px;
+    padding-top: 10px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12rem;
+    width: auto;
+    background-color: #e5e7eb;
+}
+
+.quote h3 {
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    width: 800px;
+}
+
+.quote h4 {
+    text-align: right;
+    width: 800px;
+    font-size: 30px;
+}
+
+.c2a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem;
+}
+
+.c2a-background {
+    background-color: #3882f6;
+    border: #3882f6 solid;
+    border-radius: 1rem;
+    padding: 3rem 6rem;
+
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.c2a-text {
+    color: #e5e7eb;
+    font-size: 20px;
+}
+
+.c2a-text h2 {
+    color: #e5e7eb;
+    font-size: 36px;
+}
+
+.c2a-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c2a-button button {
+    background-color: #3882f6;
+    border: solid 3px;
+    border-radius: .5rem;
+    padding: 10px 40px;
+    border-color: #e5e7eb;
+    color: #e5e7eb;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding: 50px;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
